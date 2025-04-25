@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Rekenspel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧠 Rekenwedstrijd</h1>
+  <h2 id="question">Vraag komt hier...</h2>
+
+  <div class="scoreboard">
+    🔵 Speler 1 Score: <span id="score1">0</span> |
+    🔴 Speler 2 Score: <span id="score2">0</span>
+  </div>
+
+  <div id="winnerMessage" class="winner"></div>
+
+  <div id="players">
+    <div id="player1"></div>
+    <div id="player2"></div>
+  </div>
+
+  <button onclick="resetGame()" class="reset-button">🔄 Reset spel</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
